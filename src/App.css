@@ -146,8 +146,6 @@ border-bottom: 1px var(--primary) solid;
   border-radius: 50%;
 }
 #user-text{
-  position: relative;
-  display: flex;
   align-items: center;
 }
 #arrows{
@@ -216,7 +214,7 @@ border-bottom: 1px var(--primary) solid;
     display: inline-block;
     position: absolute;
     right:10%;
-    top:62px;
+    top:30px;
   }
   #user-panel{
     display: none;

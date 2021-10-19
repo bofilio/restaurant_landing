@@ -45,9 +45,10 @@ function App() {
             <div id="user-icon">
               <img src={user_icon} height="30" width="30" alt="user icon" />
             </div>
-            <div id="user-text ">
+            <div id="user-text" className=" d-flex">
               <span className="white ml-2">User</span>
               <img className="ml-2" src={vector} width="10px" height="4.4px" alt="arrow" />
+             
             </div>
           </div>
           <div id="Menu-icon">
