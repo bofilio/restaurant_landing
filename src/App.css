@@ -1,38 +1,311 @@
-.App {
-  text-align: center;
+:root{
+  --green:#31A24C;
+  --primary:#35CD8C;
+  --bg-light:#FFF5EC;
+  --danger:#FE043C;
+  --opacity:0.7;
+  --text-opacity:0.6;
+  --primary-text:#2E266F;
+  --secondary-text:#707070;
+  --service-bg:#FFEDDE;
+  --body-bg:#FFF5EC;
+  --spacing:5px;
+  --full-width:100%;
+  --full-height:100%;
+  --window-width:100vw;
+  --window-height:100vh;
+  --breakpont-sm:680px;
+  --breakpont-md:1194px;
+  --breakpont-lg:1920px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Width & height*/
+.container{
+  max-width: var( --breakpont-lg);
+  background-color: var(--body-bg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* specific elements */
+#left-bar{
+  position: relative;
+  height:63vw;
+  margin-left: 133px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#logo{
+  color: var(--primary);
+  font-size: 5vw;
+  font-weight: 700;
+}
+.menu-item{
+  text-decoration: none;
+  color:var(--primary-text);
+  font-size: 16px;
+  font-weight: 400;
+}
+#Heading{
+  max-width: 65%;
+  overflow-x: hidden;
+}
+#Heading .bg-text{
+  font-size: 10vw;
+  font-weight: 900;
+  color: rgba(46, 38, 111, 0.05)
+}
+#Heading .branding{
+  margin-top:-3vw;
+  font-size: 4vw;
+  font-weight: 900;
+  color: var(--primary-text);
+}
+.search-form{
+  max-width: 80%;
+  height: 5vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.search-form input{
+  background-color: white;
+  flex-grow: 1;
+  height: 97%;
+  border:none;
+  padding-left: 50px;
+}
+input::placeholder{
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: var(--primary-text);
+}
+input:focus{
+outline-style: none;
+border-bottom: 1px var(--primary) solid;
+}
+.search-form button{
+  background-color:var(--primary);
+  flex-basis: 33%;
+  height: 100%;
+  border:none;
+  font-size: 2vw;
+  font-weight: 600;
   color: white;
+  border-radius: 60px 0px 0px 0px;
+}
+#location{
+  position: relative;
+  left: 0;
+  background-color: var(--primary);
+  width: 20vw;
+  margin-top:10%;
+  margin-left: -133px;
+  border-radius: 0px 100px 100px 0px;
+  z-index: 100;
+}
+#location span{
+  font-size: 2vw;
+  font-weight: 500;
+}
+/*Reciep*/
+#menu{
+  right:6%;
+  width:45%;
+}
+/*Right bar*/
+#right-bar{
+  position: relative;
+  flex-basis: 26.77%;
+  height:63vw;
+  background-color: var(--primary);
 }
 
-.App-link {
-  color: #61dafb;
+#Menu-icon{
+  display: none;
+}
+#user-panel{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top:30px;
+  right:25%;
+  width:114px;
+  height: 52px;
+}
+#user-icon{
+  position: relative;
+  background-color: white;
+  padding:11px;
+  border-radius:50%;
+  
+}
+#user-icon::after{
+  content: "";
+  position: absolute;
+  background-color: var(--green);
+  top:0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+#user-text{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#arrows{
+  top: 50vw;
+  width:100%;
+}
+#arrows .arrow{
+  width:65px;
+  height: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*-------------------------------------------------------------Tablet------------*/
+@media screen and (max-width: 1194px ) {
+  .container{
+    max-width: var( --breakpont-md);
   }
-  to {
-    transform: rotate(360deg);
+  /* specific elements */
+  #left-bar{
+    margin-left: 30px;
+    height:77vw;
+  }
+  #logo{
+    font-size: 7vw;
+  }
+  #header-menu{
+    display: none;
+  }
+  #Heading{
+    max-width: 70%;
+  }
+  #Heading .bg-text{
+    font-size: 12vw;
+  }
+  #Heading .branding{
+    font-size: 5vw;
+    font-weight: 700;
+  }
+  .search-form{
+    height: 8vw;
+  }
+  .search-form input{
+    padding-left: 30px;
+  }
+  input::placeholder{
+    font-size: 2vw;
+  }
+  .search-form button{
+    font-size: 2.5vw;
+  }
+  
+  #location{
+    width: 25vw;
+    margin-left: -30px;
+  }
+  #menu{
+    right:1.6%;
+    width:50%;
+  }
+
+  #right-bar{
+    flex-basis: 25.29%;
+    height:77vw;
+  }
+  #Menu-icon{
+    display: inline-block;
+    position: absolute;
+    right:10%;
+    top:62px;
+  }
+  #user-panel{
+    display: none;
+  }
+  #arrows{
+    top:55vw;
+  }
+  #arrows .arrow{
+    width:40px;
+    height: 30px;
+  }
+
+}
+
+/*-------------------------------------------------------------Phone------------*/
+@media screen and (max-width: 680px) {
+  .container{
+    max-width: 100vw;
+  }
+  /* specific elements */
+  #left-bar{
+    margin-left: 19px;
+    height:190vw;
+  }
+  #logo{
+    font-size: 8.6vw;
+  }
+  #header-menu{
+    display: none;
+  }
+  #Heading{
+    max-width: 100%;
+  }
+  #Heading .bg-text{
+    font-size: 12vw;
+  }
+  #Heading .branding{
+    font-size: 6.5vw;
+    font-weight: 700;
+  }
+  .search-form{
+    height: 12vw;
+    max-width:110%;
+    width:110%;
+    z-index: 100;
+    position: absolute;
+    
+  }
+
+  .search-form input{
+    padding-left: 30px;
+  }
+  input::placeholder{
+    font-size: 3vw;
+  }
+  .search-form button{
+    font-size: 2.5vw;
+  }
+  
+  #location{
+    width: 25vw;
+    margin-top: 40%;
+    margin-left: -19px;
+  }
+  #menu{
+    right:0;
+    width:100%;
+    bottom: 15px;
+    top:auto;
+    transform: rotateZ(25deg);
+  }
+
+  #right-bar{
+    flex-basis: 30%;
+    height:190vw;
+  }
+  #Menu-icon{
+    display: inline-block;
+    position: absolute;
+    right:20px;
+    top:15px;
+  }
+  #user-panel{
+    display: none;
+  }
+  #arrows{
+    top:auto;
+    bottom: 5%;
+  }
+  #arrows .arrow{
+    width:24px;
+    height: 16px;
   }
 }
