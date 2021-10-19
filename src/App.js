@@ -1,4 +1,11 @@
 //import './globale.css';
+import pin from './imgs/pin-icon.png';
+import menu from './imgs/menu.png';
+import menu_icon from './imgs/menu-icon.png';
+import toleft from './imgs/toleft.png';
+import toright from './imgs/toright.png';
+import user_icon from './imgs/User-icon.png';
+import vector from './imgs/Vector.png';
 import './App.css';
 function App() {
   return (
@@ -27,7 +34,7 @@ function App() {
           </div>
 
           <div id="location" className="d-flex d-center p-3">
-            <img src="pin-icon.png" width="20px" height="25px" alt="pin" />
+            <img src={pin} width="20px" height="25px" alt="pin" />
             <span className="white ml-4">Rajshahi</span>
           </div>
         </div>
@@ -35,27 +42,27 @@ function App() {
         <div id="right-bar">
           <div id="user-panel">
             <div id="user-icon">
-              <img src="User-icon.png" height="30" width="30" alt="user icon" />
+              <img src={user_icon} height="30" width="30" alt="user icon" />
             </div>
             <div id="user-text ">
               <span className="white ml-2">User</span>
-              <img className="ml-2" src="Vector.png" width="10px" height="4.4px" alt="arrow" />
+              <img className="ml-2" src={vector} width="10px" height="4.4px" alt="arrow" />
             </div>
           </div>
           <div id="Menu-icon">
-            <img src="menu-icon.png" height="20px" width="40px" alt="menu icon"/>
+            <img src={menu_icon} height="20px" width="40px" alt="menu icon"/>
           </div>
           <div id="arrows" className="d-flex d-center absolute">
             <div >
-              <img className="arrow" src="toleft.png" alt='to left' width="66px" height="45px"/>
+              <img className="arrow" src={toleft} alt='to left' width="66px" height="45px"/>
             </div>
             <div className="ml-2">
-            <img className="arrow" src="toright.png" alt='to left'/>
+            <img className="arrow" src={toright} alt='to left'/>
             </div>
           </div>
         </div>
         <div id="menu" className="absolute mt-8">
-          <img src="menu.png" width="100%" height="auto" alt="menu" />
+          <img src={menu} width="100%" height="auto" alt="menu" />
         </div>
       </div>
     </div>
