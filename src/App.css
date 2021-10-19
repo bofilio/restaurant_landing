@@ -97,6 +97,7 @@ border-bottom: 1px var(--primary) solid;
   margin-left: -133px;
   border-radius: 0px 100px 100px 0px;
   z-index: 100;
+  padding: calc(var(--spacing)*3);
 }
 #location span{
   font-size: 2vw;
@@ -200,6 +201,7 @@ border-bottom: 1px var(--primary) solid;
   #location{
     width: 25vw;
     margin-left: -30px;
+    padding: calc(var(--spacing)*2);
   }
   #menu{
     right:1.6%;
@@ -279,10 +281,13 @@ border-bottom: 1px var(--primary) solid;
     margin-top: 40%;
     margin-left: -19px;
   }
+  #location span{
+    font-size: 3vw;
+  }
   #menu{
     right:0;
-    width:100%;
-    bottom: 15px;
+    width:80%;
+    bottom: 20px;
     top:auto;
     transform: rotateZ(25deg);
   }

@@ -34,7 +34,7 @@ function App() {
             </form>
           </div>
 
-          <div id="location" className="d-flex d-center p-3">
+          <div id="location" className="d-flex d-center">
             <img src={pin} width="20px" height="25px" alt="pin" />
             <span className="white ml-4">Rajshahi</span>
           </div>
