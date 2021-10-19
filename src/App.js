@@ -7,6 +7,7 @@ import toright from './imgs/toright.png';
 import user_icon from './imgs/User-icon.png';
 import vector from './imgs/Vector.png';
 import './App.css';
+import './globale.css';
 function App() {
   return (
     <div className="d-flex flex-column container">

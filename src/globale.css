@@ -58,9 +58,6 @@ body,html,h1,h2,h3,h4,h5,h6,p{
   .ml-26{
     margin-left: calc(var(--spacing)*26);
   }
-  .m-l-26{
-    margin-left: calc(var(--spacing)*-26);
-  }
   .mr-8{
     margin-right: calc(var(--spacing)*8);
   }
@@ -73,9 +70,7 @@ body,html,h1,h2,h3,h4,h5,h6,p{
   .mt-43{
     margin-top:calc(var(--spacing)*43);
   }
-  .m-t-12{
-    margin-top:  calc(var(--spacing)*-12);
-  }
+
   /*padding*/
   .p-1{
     padding: var(--spacing);
