@@ -27,7 +27,7 @@ function App() {
           </div>
 
           <div id="location" className="d-flex d-center p-3">
-            <img src="/pin-icon.png" width="20px" height="25px" alt="pin" />
+            <img src="pin-icon.png" width="20px" height="25px" alt="pin" />
             <span className="white ml-4">Rajshahi</span>
           </div>
         </div>
@@ -35,15 +35,15 @@ function App() {
         <div id="right-bar">
           <div id="user-panel">
             <div id="user-icon">
-              <img src="/User-icon.png" height="30" width="30" alt="user icon" />
+              <img src="User-icon.png" height="30" width="30" alt="user icon" />
             </div>
             <div id="user-text ">
               <span className="white ml-2">User</span>
-              <img className="ml-2" src="/Vector.png" width="10px" height="4.4px" alt="arrow" />
+              <img className="ml-2" src="Vector.png" width="10px" height="4.4px" alt="arrow" />
             </div>
           </div>
           <div id="Menu-icon">
-            <img src="/menu-icon.png" height="20px" width="40px" alt="menu icon"/>
+            <img src="menu-icon.png" height="20px" width="40px" alt="menu icon"/>
           </div>
           <div id="arrows" className="d-flex d-center absolute">
             <div >
