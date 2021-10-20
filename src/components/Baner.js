@@ -6,9 +6,8 @@ import toleft from '../imgs/toleft.png';
 import toright from '../imgs/toright.png';
 import user_icon from '../imgs/User-icon.png';
 import vector from '../imgs/Vector.png';
-import '../css/App.css';
-import '../css/globale.css';
 
+import '../css/baner.css';
 const Baner = () => {
     return (
         <div className="d-flex flex-column container">
