@@ -1,8 +1,10 @@
 import React from "react";
-import '../css/food.css'
+import "../css/food.css";
+import food_img1 from "../imgs/food1.png";
+import Offer from "./Offer";
 const Food = () => {
   return (
-    <section className=" container">
+    <section className="container">
       <div className="section-body">
         <div className="d-flex flex-column align-items-center">
           <h5 className="mb-4">Ecplore Our Food</h5>
@@ -12,11 +14,15 @@ const Food = () => {
           </p>
         </div>
         <div className="d-flex flex-wrap">
-            <div >
-
-            </div>
-            <div></div>
-            <div></div>
+          <Offer />
+          <div style={{ flexBasis: "2%" }}></div>
+          <Offer />
+          <div style={{ flexBasis: "2%" }}></div>
+          <Offer />
+          <div style={{ flexBasis: "1rem" }}></div>
+          <Offer />
+          <div></div>
+          <div></div>
         </div>
       </div>
     </section>
