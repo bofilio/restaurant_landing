@@ -30,6 +30,14 @@ body,html,h1,h2,h3,h4,h5,h6,p{
   max-width: var( --breakpont-lg);
   background-color: var(--body-bg);
 }
+body{
+  background-color: var(--body-bg);
+  color:var(--primary-text);
+}
+/*width*/
+.half{
+  width:50%;
+}
 /*Flex box*/
 .d-flex{
     display: flex;
@@ -56,6 +64,13 @@ body,html,h1,h2,h3,h4,h5,h6,p{
 .flex-grow{
   flex-grow: 1;
 }
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.mobile{
+  flex-direction: row;
+}
+
 
 /* positionning */
 .relative{
@@ -83,6 +98,9 @@ body,html,h1,h2,h3,h4,h5,h6,p{
   .bg-white{
     background-color: white;
   }
+  .bg-secondary{
+    background-color: var(--service-bg);
+  }
   /*Marging*/
   .ml-2{
     margin-left: calc(var(--spacing)*2);
@@ -90,8 +108,17 @@ body,html,h1,h2,h3,h4,h5,h6,p{
   .ml-4{
     margin-left: calc(var(--spacing)*4);
   }
+  .ml-8{
+    margin-left: calc(var(--spacing)*8);
+  }
   .ml-26{
     margin-left: calc(var(--spacing)*26);
+  }
+  .mr-2{
+    margin-right: calc(var(--spacing)*2);
+  }
+  .mr-4{
+    margin-right: calc(var(--spacing)*4);
   }
   .mr-8{
     margin-right: calc(var(--spacing)*8);
@@ -109,6 +136,9 @@ body,html,h1,h2,h3,h4,h5,h6,p{
   .mb-4{
     margin-bottom:calc(var(--spacing)*4);
   }
+  .mb-8{
+    margin-bottom:calc(var(--spacing)*8);
+  }
   .mb-2{
     margin-bottom:calc(var(--spacing)*2);
   }
@@ -123,38 +153,125 @@ body,html,h1,h2,h3,h4,h5,h6,p{
   .p-3{
     padding: calc(var(--spacing)*3);
   }
+  .p-4{
+    padding: calc(var(--spacing)*4);
+  }
+  .p-8{
+    padding: calc(var(--spacing)*8);
+  }
+  .p-16{
+    padding: calc(var(--spacing)*16);
+  }
+  .p-16-8{
+    padding: calc(var(--spacing)*16) calc(var(--spacing)*8);
+  }
 
   /*Typography*/
   h1{
-    font-size:72px;
+    font-size:max(48px, 4vw);
     font-weight: 700;
   }
   h2{
-    font-size:48px;
+    font-size:max(32px, 3vw);
     font-weight: 700;
   }
   h3{
-    font-size:36px;
+    font-size:max(24px, 2.5vw);
     font-weight: 700;
   }
   h4{
-    font-size:28px;
+    font-size:max(18px, 2vw);
     font-weight: 700;
   }
   h5{
-    font-size:24px;
+    font-size:max(16px, 1.5vw);
     font-weight: 600;
   }
   h6{
-    font-size:16px;
+    font-size:max(14px, 1vw);
     font-weight: 500;
   }
-  .sub-text{
-    font-size:14px;
-    font-weight: 400;
+  .sub-text1{
+    font-size: max(9px,1vw);
   }
   .btn-text{
     font-size:16px;
     font-weight: 400;
     text-transform: uppercase;
   }
+
+
+
+  /*booking */
+
+.booking{
+    padding:10vw 0px;
+    position:relative;
+    background-color: var(--service-bg);
+}
+.booking .content{
+  margin-right: 20%;
+    padding-left:20%;
+
+}
+.booking .header{
+  border-top:5px var(--primary) solid
+}
+.booking .search{
+  height:48px;
+  width:min(100%,600px);
+}
+.booking .search_input{
+  height:100%;
+  border: none;
+  padding-left: 10%;
+  flex-grow: 1;
+}
+.booking .search_input::placeholder{
+  color: var(--primary-text);
+  font-size: 14px;
+}
+.booking button{
+ color:white;
+  flex-basis: 25%;
+  height: 100%;
+  background-color: var(--primary);
+  border:none;
+}
+.booking .bg_l{
+    position:absolute;
+    height:100%;
+    flex-basis:max(10%,90px);
+    top:0;
+}
+.booking .bg_r{
+    position:absolute;
+    height:50%;
+    top:25%;
+    right:0;
+    width:auto;
+}
+/*-------------------------------------------------------------Tablet------------*/
+@media screen and (max-width: 1194px ) {
+  .booking .bg_l{
+    left:-10%;
+  }
+  .booking .bg_r{
+    right:-3%;
+  }
+
+}
+@media screen and (max-width: 680px ) {
+  .booking .bg_l{
+    left:-20%;
+  }
+  .booking .bg_r{
+    right:-10%;
+    top:40%
+  }
+  .mobile{
+    flex-direction: column;
+  }
+
+
+}

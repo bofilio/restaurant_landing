@@ -1,0 +1,33 @@
+#services{
+    padding:10vw 3vw;
+}
+#services .header{
+width: 30%;
+border-left: 5px var(--primary) solid;
+}
+#services .sub{
+    width:min(100%,600px);
+}
+.advanced-booking{
+    height: 100%;
+    width:40%;
+}
+.advanced-booking img{
+    max-width:10vw;
+}
+.delivery{
+    box-sizing: border-box;
+    padding:5vw;
+}
+.delivery img{
+    width: 20vw;
+}
+.mobile{
+    flex-direction: row;
+}
+
+@media screen and (max-width: 680px ) {
+    .mobile{
+        flex-direction: column;
+    }
+}
