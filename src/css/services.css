@@ -17,7 +17,7 @@ border-left: 5px var(--primary) solid;
 }
 .delivery{
     box-sizing: border-box;
-    padding:5vw;
+    padding: 5vw;
 }
 .delivery img{
     width: 20vw;
