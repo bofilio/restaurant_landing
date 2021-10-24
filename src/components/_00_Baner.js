@@ -9,7 +9,7 @@ import vector from '../imgs/Vector.png';
 import "../css/baner.css"
 const Baner = () => {
     return (
-        <section className="d-flex flex-column container">
+        <section className="d-flex flex-column">
         <div className="d-flex flex-row relative flex-grow">
   
           <div id="left-bar" className="flex-grow flex-column">

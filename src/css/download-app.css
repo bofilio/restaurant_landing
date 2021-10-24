@@ -1,5 +1,5 @@
 #download-app{
-    padding:5vw 3vw;
+    padding:max(5vw,3rem) 0;
 }
 #download-app h4{
     padding-left: 1rem;
@@ -40,5 +40,11 @@
     #download-app .app-image{
         width:60%;
         height: auto;
+    }
+    #download-app h4{
+        margin-bottom: 1rem;
+    }
+    #download-app p{
+       margin-bottom: 1rem;
     }
 }

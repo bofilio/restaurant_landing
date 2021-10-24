@@ -4,7 +4,7 @@ import bg_right from "../imgs/bg-r.png";
 import '../css/booking.css'
 const Booking = () => {
   return (
-    <section id="booking-section" className="d-flex flex-column container">
+    <section id="booking-section" className="d-flex flex-column">
       <div className="booking d-flex align-items-center">
         <img className="bg_l" src={bg_left} alt="bg-l" />
         <div className="content flex-grow bg-white p-8">

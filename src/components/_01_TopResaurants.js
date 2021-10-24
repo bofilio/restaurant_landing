@@ -6,8 +6,8 @@ import see_more_img from "../imgs/see_more.png";
 import pin from "../imgs/location_.png";
 const TopResaurants = () => {
   return (
-    <section id="top-restaurant" className="d-flex flex-column container">
-      <div className="d-flex restaurants-section ">
+    <section id="top-restaurant" className="d-flex flex-column">
+      <div className="d-flex restaurants-section mobile">
         <div className="heading">
           <h4>some top restaurant for dining in or Take away!</h4>
         </div>

@@ -1,11 +1,10 @@
+#top-restaurant{
+    padding: max(5vw,3rem) 0;
+}
 .restaurants-section{
-    padding:70px 0px;
-    margin-left: 133px;
     max-width: 1450px;  
 }
-#top-restaurant{
-    padding:3vw 0px;
-}
+
 .restaurants-section .heading{
     max-width: 600px;
 }
@@ -67,9 +66,7 @@
 
 /*-------------------------------------------------------------Tablet------------*/
 @media screen and (max-width: 1194px ) {
-    .restaurants-section .heading{
-        font-size: 3vw;
-    }
+    
     .restaurants-section .heading div{
         padding-left: 16px;
         border-left:9px var(--primary) solid;
@@ -77,10 +74,7 @@
     .restaurants-section .sub-text{
         margin-left: 16px;
     }
-    .restaurants-section{
-        margin-left: 32px;
-        margin-top:67px;
-    }
+    
     .restaurant{
         max-width: 494px;
         max-height: 493px;
@@ -106,10 +100,6 @@
 @media screen and (max-width: 680px ) {
     .restaurants-section .heading{
         flex-basis: 85%;
-        color:var(--primary-text);
-        font-size: 36px;
-        font-weight: 500; 
-        margin-bottom: 2rem;
     }
     .restaurants-section .heading div{
         padding-left: 30px;
@@ -136,12 +126,5 @@
 
 }
 @media screen and (max-width: 1000px ) {
-    .restaurants-section{
-        flex-direction: column;
-        margin-left: 20px;
-        margin-top:78px;
-    }
-    .restaurants-section .heading{
-        margin-bottom: 40px;
-    }
+    
 }

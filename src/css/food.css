@@ -1,31 +1,18 @@
 #food-section{
-    padding:5vw 3vw;
+    padding: max(5vw,3rem) 0;
 }
 .food-offer{
 width:30%;
 }
 @media screen and (max-width: 1194px ) {
-    .section-body{
-        padding:10vw 5vw;
-    }
-    .mobile{
-        flex-direction: column;
-        
-    }
+    
     .food-offer{
-        width: 46%;
+        width: 45%;
     }
 
 }
 @media screen and (max-width: 680px ) {
-    .section-body{
-        padding:15vw 10vw;
-    }
-    .mobile{
-        flex-direction: column;
-        
-    }
     .food-offer{
-        width: 100%;
+        width: 90%;
     }
 }

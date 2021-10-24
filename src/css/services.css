@@ -1,9 +1,12 @@
 #services{
-    padding:5vw 3vw;
+    padding: max(5vw,3rem) 0;
+    box-sizing: border-box;
 }
 #services .header{
-width: 30%;
-border-left: 5px var(--primary) solid;
+    width: 30%;
+}
+#services .header h4{
+    border-left: 5px var(--primary) solid;
 }
 #services .sub{
     width:min(100%,600px);
@@ -17,17 +20,19 @@ border-left: 5px var(--primary) solid;
 }
 .delivery{
     box-sizing: border-box;
-    padding: 5vw;
+    padding: 2rem;
+    
 }
 .delivery img{
-    width: 20vw;
+    width: 60%;
 }
 .mobile{
     flex-direction: row;
 }
 
 @media screen and (max-width: 680px ) {
-    .mobile{
-        flex-direction: column;
+    #services .header{
+        width: 100%;
     }
+    
 }

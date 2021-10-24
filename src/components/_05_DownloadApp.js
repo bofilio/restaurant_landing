@@ -5,20 +5,19 @@ import google_play_img from "../imgs/Google-play.svg";
 import apple_store_img from "../imgs/Apple-Store.svg";
 const DownloadApp = () => {
   return (
-    <section id="download-app" className="bg-secondary container">
+    <section id="download-app" className="bg-secondary">
       <div className="d-flex space-around mobile content">
         <div className="d-flex flex-column justify-content-center heading" >
           <h4>
             Download App for <br />
             Exciting Deals
           </h4>
-          <span className="sub-text1 p-2" >
+          <span className="sub-text1 pl-4" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Est,
               adipiscing cursus auctor eget sed phasellus senectus.<br/> Ut tellus
               donec vestibulum tristique leo bibendum in a, tincidunt
             </span>
-          <div className="p-2">
-          
+          <div className="p-2 mt-2">
             <div className="d-flex  btns ">
               <button>
                 <img src={google_play_img} alt="" />

@@ -1,7 +1,7 @@
 footer{
     position: relative;
-    margin-top:5vw;
-    padding: 15vw 3vw;
+    margin-top: max(5vw,3rem);
+    padding: max(5vw,3rem) 0;
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: 0;
@@ -30,7 +30,7 @@ footer form button{
     position: absolute;
     bottom: 0;
     right: 10%;
-    padding: 5vw 0px;
+    padding: 2rem 4px;
 }
 #bottom-bar img{
     height: 1rem;

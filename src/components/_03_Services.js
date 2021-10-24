@@ -5,13 +5,13 @@ import food_img from '../imgs/food.svg';
 import "../css/services.css";
 const Services = () => {
   return (
-    <section className="d-flex flex-column container">
+    <section className="d-flex flex-column ">
       <div id="services">
-        <div className="d-flex align-items-center p-0-8">
-          <div className="header p-4">
-            <h4>Our Services</h4>
+        <div className="d-flex mobile p-0-8">
+          <div className="header pl-4 ">
+            <h4 className="pl-4">Our Services</h4>
           </div>
-          <p className=" sub sub-text1">
+          <p className=" sub sub-text1 pl-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
             adipiscing cursus auctor eget sed phasellus senectus. Ut tellus
             donec vestibulum tristique leo bibendum in a, tincidunt. Volutpat
@@ -19,9 +19,9 @@ const Services = () => {
             ultrices morbi tellus. Lorem
           </p>
         </div>
-        <div className="mobile d-flex p-16-8">
+        <div className="mobile d-flex p-16-8 ">
           <div className="flex-grow d-flex flex-column">
-            <div className="tables d-flex align-items-center flex-grow">
+            <div className=" d-flex align-items-center flex-grow">
               <div className="d-flex d-center advanced-booking bg-secondary">
                 <div className="p-8">
                   <img src={booking_table} alt="table" />

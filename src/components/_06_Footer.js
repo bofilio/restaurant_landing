@@ -10,7 +10,7 @@ import copy_right_icon from '../imgs/copy-right.svg'
 const Footer = () => {
   return (
     <footer
-      className="d-flex d-center container"
+      className="d-flex d-center"
       style={{ backgroundImage: `url(${tree_img})` }}
     >
       <div className="d-flex flex-column content">

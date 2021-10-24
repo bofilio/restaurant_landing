@@ -1,8 +1,7 @@
-
-  /*booking */
 #booking-section{
-  padding:5vw 0px;
+  padding: max(5vw,3rem) 0;
 }
+
 .booking{
     padding:10vw 0px;
     position:relative;

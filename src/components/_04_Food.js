@@ -9,7 +9,7 @@ import food_img6 from "../imgs/food6.png";
 import Offer from "./Offer";
 const Food = () => {
   return (
-    <section id="food-section" className="container">
+    <section id="food-section" >
       <div className="section-body">
         <div className="d-flex flex-column align-items-center">
           <h4 className="mb-4">Ecplore Our Food</h4>
@@ -18,7 +18,7 @@ const Food = () => {
             adipiscing.
           </p>
         </div>
-        <div className="d-flex flex-wrap">
+        <div className="d-flex flex-wrap d-center mobile" >
           <Offer image={food_img1}/>
           <div style={{ flexBasis: "2%" }}></div>
           <Offer image={food_img2} />
