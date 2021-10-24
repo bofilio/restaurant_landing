@@ -101,6 +101,12 @@ body{
   .bg-secondary{
     background-color: var(--service-bg);
   }
+  .bg-primary{
+    background-color: var(--primary);
+  }
+  .text-secondary{
+    color: var(--secondary-text);
+  }
   /*Marging*/
   .ml-2{
     margin-left: calc(var(--spacing)*2);
@@ -177,7 +183,14 @@ body{
   .p-16-8{
     padding: calc(var(--spacing)*16) calc(var(--spacing)*8);
   }
-
+/*inputs*/
+input::placeholder{
+  color: var(--primary-text);
+  font-size: max(12px,0.75vw);
+}
+input{
+  box-sizing: border-box;
+}
   /*Typography*/
   h1{
     font-size:max(48px, 4vw);
@@ -204,7 +217,7 @@ body{
     font-weight: 700;
   }
   .sub-text1{
-    font-size: max(11px,0.5vw);
+    font-size: max(12px,0.75vw);
   }
   .btn-text{
     font-size:16px;
@@ -213,77 +226,3 @@ body{
   }
 
 
-
-  /*booking */
-
-.booking{
-    padding:10vw 0px;
-    position:relative;
-    background-color: var(--service-bg);
-}
-.booking .content{
-  margin-right: 20%;
-    padding-left:20%;
-
-}
-.booking .header{
-  border-top:5px var(--primary) solid
-}
-.booking .search{
-  height:48px;
-  width:min(100%,600px);
-}
-.booking .search_input{
-  height:100%;
-  border: none;
-  padding-left: 10%;
-  flex-grow: 1;
-}
-.booking .search_input::placeholder{
-  color: var(--primary-text);
-  font-size: 14px;
-}
-.booking button{
- color:white;
-  flex-basis: 25%;
-  height: 100%;
-  background-color: var(--primary);
-  border:none;
-}
-.booking .bg_l{
-    position:absolute;
-    height:100%;
-    flex-basis:max(10%,90px);
-    top:0;
-}
-.booking .bg_r{
-    position:absolute;
-    height:50%;
-    top:25%;
-    right:0;
-    width:auto;
-}
-/*-------------------------------------------------------------Tablet------------*/
-@media screen and (max-width: 1194px ) {
-  .booking .bg_l{
-    left:-10%;
-  }
-  .booking .bg_r{
-    right:-3%;
-  }
-
-}
-@media screen and (max-width: 680px ) {
-  .booking .bg_l{
-    left:-20%;
-  }
-  .booking .bg_r{
-    right:-10%;
-    top:40%
-  }
-  .mobile{
-    flex-direction: column;
-  }
-
-
-}

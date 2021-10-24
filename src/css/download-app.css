@@ -1,0 +1,53 @@
+#download-app{
+    padding:5vw 3vw;
+}
+#download-app h4{
+    padding-left: 1rem;
+    border-left:0.5rem var(--primary) solid;
+}
+/*#download-app p{
+    max-width:40%;
+}*/
+#download-app .btns{
+    max-width: 80%;
+}
+#download-app .btns button{
+    width:50%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+#download-app .btns button img{
+    width:100%;
+    border:none;
+    background-color:transparent;
+}
+#download-app .app-image{
+    width:auto;
+    height: 42vw;
+}
+
+/*tablet*/
+@media screen and (max-width: 1194px ) {
+
+    #download-app p{
+        max-width:80%;
+    }
+    
+}
+
+/*phone*/
+@media screen and (max-width: 680px ) {
+    #download-app .content{
+        margin-bottom: 2rem;
+        align-items: center;
+   
+    }
+    #download-app .app-image{
+        width:60%;
+        height: auto;
+    }
+}

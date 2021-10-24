@@ -6,8 +6,7 @@ import toleft from '../imgs/toleft.png';
 import toright from '../imgs/toright.png';
 import user_icon from '../imgs/User-icon.png';
 import vector from '../imgs/Vector.png';
-
-import '../css/baner.css';
+import "../css/baner.css"
 const Baner = () => {
     return (
         <section className="d-flex flex-column container">
@@ -15,9 +14,9 @@ const Baner = () => {
   
           <div id="left-bar" className="flex-grow flex-column">
             <div className="d-flex align-items-center">
-              <div id="logo" style={{ height: '108px', lineHeight: '108px' }}>
+              <h1 className="primary">
                 expice
-              </div>
+              </h1>
               <div id="header-menu" className="flex-grow d-flex d-center">
                 <a className="menu-item mr-8" href="#one">Menu One</a>
                 <a className="menu-item mr-8" href="#two">Menu Two</a>

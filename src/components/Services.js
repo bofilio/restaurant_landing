@@ -48,7 +48,7 @@ const Services = () => {
           <div className="delivery d-flex flex-column align-items-center flex-grow  bg-secondary">
             <img className="mb-8" src={delivery_img} alt="delevery" />
             <div>
-              <h5 className="text-center">
+              <h5 className="text-center mb-4">
                 Free Home Delivery
                 <br /> At your Door Steps
               </h5>

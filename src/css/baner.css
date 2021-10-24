@@ -9,11 +9,7 @@
   height:63vw;
   margin-left: 133px;
 }
-#logo{
-  color: var(--primary);
-  font-size: 5vw;
-  font-weight: 700;
-}
+
 .menu-item{
   text-decoration: none;
   color:var(--primary-text);
@@ -47,12 +43,8 @@
   border:none;
   padding-left: 50px;
 }
-input::placeholder{
-  font-size: 1.5vw;
-  font-weight: 400;
-  color: var(--primary-text);
-}
-input:focus{
+
+.search-form input:focus{
 outline-style: none;
 border-bottom: 1px var(--primary) solid;
 }
@@ -167,9 +159,6 @@ border-bottom: 1px var(--primary) solid;
   .search-form input{
     padding-left: 30px;
   }
-  input::placeholder{
-    font-size: 2vw;
-  }
   .search-form button{
     font-size: 2.5vw;
   }
@@ -217,9 +206,6 @@ border-bottom: 1px var(--primary) solid;
     margin-left: 19px;
     height:190vw;
   }
-  #logo{
-    font-size: 8.6vw;
-  }
   #header-menu{
     display: none;
   }
@@ -244,9 +230,6 @@ border-bottom: 1px var(--primary) solid;
 
   .search-form input{
     padding-left: 30px;
-  }
-  input::placeholder{
-    font-size: 3vw;
   }
   .search-form button{
     font-size: 2.5vw;

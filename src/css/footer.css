@@ -1,0 +1,46 @@
+footer{
+    margin-top:5vw;
+    padding: 15vw 3vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 0;
+}
+footer .content{
+    width: min(560px , 80vw);
+}
+footer form{
+    height: max(5rem,5vw);
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 6rem;
+}
+footer form input{
+    padding-left: 10%;
+    height: 100%;
+    border: none;
+}
+footer form input:focus{
+    outline-style: none;
+}
+
+footer form button{
+    width:3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+@media screen and (max-width: 1194px ) {
+    footer{
+        background-position-x: -6rem;
+    } 
+}
+@media screen and (max-width: 680px ) {
+    footer{
+        background-position-x: -10rem;
+    } 
+}

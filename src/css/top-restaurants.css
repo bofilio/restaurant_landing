@@ -1,8 +1,10 @@
 .restaurants-section{
     padding:70px 0px;
     margin-left: 133px;
-    max-width: 1450px;
-    
+    max-width: 1450px;  
+}
+#top-restaurant{
+    padding:3vw 0px;
 }
 .restaurants-section .heading{
     max-width: 636px;
@@ -17,7 +19,7 @@
 .sub-text{
     margin-left: 7%;
     flex-basis: 33%;
-    font-size: max(13px,0.7vw);
+    font-size: max(12px,0.7vw);
     font-weight: 400;
 }
 .restaurant{
@@ -67,9 +69,7 @@
 .see-more{
     margin-left: 60px;
 }
-.restau-grid{
-    margin-bottom: 200px;
-}
+
 
 /*-------------------------------------------------------------Tablet------------*/
 @media screen and (max-width: 1194px ) {
