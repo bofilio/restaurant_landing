@@ -12,7 +12,7 @@
 }
 .sub-text{
     margin-left: min(7%,1rem);
-    flex-basis: 60%;
+    flex-basis: min(60%,50rem);
 }
 .restaurant{
     position: relative;

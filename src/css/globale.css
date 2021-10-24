@@ -256,7 +256,7 @@ button{
 
   @media screen and (max-width: 680px ) {
   .mobile{
-    
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 1194px ) {
