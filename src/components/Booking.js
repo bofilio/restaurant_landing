@@ -20,7 +20,7 @@ const Booking = () => {
               <button>GO</button>
             </form>
             <form className="booking-form d-flex flex-wrap" >
-              <input className="mr-2" type="date" style={{ width: "25%" }} />
+              <input className="mr-2" type="date" style={{ width: "40%" }} />
               <input className="mr-2" type="time" style={{ width: "25%" }} />
               <select style={{ width: "25%" }}>
                 <option>02 people</option>

@@ -7,27 +7,27 @@
     padding:3vw 0px;
 }
 .restaurants-section .heading{
-    max-width: 636px;
-    color:var(--primary-text);
-    font-size: 2vw;
-    font-weight: 500; 
+    max-width: 600px;
 }
-.restaurants-section .heading div{
+.restaurants-section .heading h4{
     padding-left: 30px;
     border-left:12px var(--primary) solid;
 }
 .sub-text{
     margin-left: 7%;
     flex-basis: 33%;
-    font-size: max(12px,0.7vw);
-    font-weight: 400;
 }
 .restaurant{
     position: relative;
-    max-width: 639px;
-    max-height: 636px;
-    margin-right: 40px;
+    background-size: cover;
+    width: 35vw;
+    height: 40vw;
+    margin-right: 2rem;
     border-radius: 20px;
+}
+.restaurant .main-img{
+    height: 100%;
+    width: 100%;
 }
 .restaurant::before{
     content: "";
@@ -46,14 +46,6 @@
     height: 40%;
     box-sizing: border-box;
 }
-.restaurant .infos h4{
-    margin-top: 1rem;
-    font-size: 24px;
-    font-weight: 700;
-}
-.restaurant .infos .sub{
-    font-size: 12px;
-}
 .book-btn{
     position: absolute;
     width:33%;
@@ -63,8 +55,10 @@
     padding:1rem;
 }
 .restaurant .infos .location{
+    position: absolute;
+    bottom: 1vw;
    margin-top: 0.5rem;
-   max-width: 50%;
+   max-width: 80%;
 }
 .see-more{
     margin-left: 60px;
@@ -98,15 +92,14 @@
     .restaurant .infos{   
         padding-left: 1rem;
     }
-    .restaurant .infos h4{
+    .restaurant .infos h5{
         margin-top: 0.5rem;
-        font-size: 16;
     }
     .restaurant .infos .location{
         margin-top: 0.5rem;
     }
     .book-btn{
-        padding:0.5rem;
+        padding:0.25rem;
     }
 
 }
@@ -123,6 +116,8 @@
         border-left:12px var(--primary) solid;
     }
     .restaurant{
+        width: 90vw;
+        height: 95vw;
         margin-bottom: 30px;
         margin:20px 40px
     }

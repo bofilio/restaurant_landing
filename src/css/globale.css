@@ -189,7 +189,20 @@ input::placeholder{
   font-size: max(12px,0.75vw);
 }
 input{
+  border:none;
   box-sizing: border-box;
+}
+input:focus{
+  outline: none;
+ border-bottom:solid 2px var(--primary);
+}
+button{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
 }
   /*Typography*/
   h1{
@@ -214,15 +227,22 @@ input{
   }
   h6{
     font-size:max(14px, 1vw);
-    font-weight: 700;
+    font-weight: 500;
   }
   .sub-text1{
     font-size: max(12px,0.75vw);
   }
+  .sub-text2{
+    font-size: max(10px,0.75vw);
+  }
   .btn-text{
-    font-size:16px;
+    font-size:max(13px,0.9vw);;
     font-weight: 400;
     text-transform: uppercase;
   }
 
-
+  @media screen and (max-width: 680px ) {
+  .mobile{
+    flex-direction: column;
+  }
+}

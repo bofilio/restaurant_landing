@@ -9,9 +9,9 @@ const TopResaurants = () => {
     <section id="top-restaurant" className="d-flex flex-column container">
       <div className="d-flex restaurants-section ">
         <div className="heading">
-          <div>some top restaurant for dining in or Take away!</div>
+          <h4>some top restaurant for dining in or Take away!</h4>
         </div>
-        <div className="sub-text">
+        <div className="sub-text sub-text1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est,
           adipiscing cursus auctor eget sed phasellus senectus. Ut tellus donec
           vestibulum tristique leo bibendum in a, tincidunt. Volutpat metus id
@@ -21,36 +21,36 @@ const TopResaurants = () => {
         </div>
       </div>
       <div className="restau-grid d-flex align-items-center">
-        <div className="restaurant">
-          <img src={rest_img2} width="100%" alt="restau" />
+        <div className="restaurant" >
+          <img src={rest_img2} className="main-img" alt="restau" />
           <div className="infos">
-            <h4 className="mb-2">Fire Water</h4>
-            <div className="sub" style={{ maxWidth: "60%" }}>
+            <h5 style={{marginBottom:"1vw"}}>Fire Water</h5>
+            <div className="sub-text2" style={{ maxWidth: "80%" }}>
               we are all about we are all about to the fullest and all content
               dining out or in!dining out or in!
             </div>
             <div className="d-flex align-items-center location">
-              <img src={pin} alt="location" width="20" height="25" />
-              <span className="ml-4">New Market</span>
+              <img src={pin} width="16" alt="location"/>
+              <h6 className="ml-4">New Market</h6>
             </div>
-            <div className="book-btn bg-white text-center primary">
+            <div className="book-btn bg-white text-center primary btn-text">
               Book Now
             </div>
           </div>
         </div>
         <div className="restaurant">
-        <img src={rest_img1} width="100%" alt="restau" />
+        <img src={rest_img1} className="main-img" alt="restau" />
           <div className="infos">
-            <h4 className="mb-2">Fire Water</h4>
-            <div className="sub" style={{ maxWidth: "60%" }}>
+            <h5 style={{marginBottom:"1vw"}}>Fire Water</h5>
+            <div className="sub-text2" style={{ maxWidth: "80%" }}>
               we are all about we are all about to the fullest and all content
               dining out or in!dining out or in!
             </div>
             <div className="d-flex align-items-center location">
-              <img src={pin} alt="location" width="20" height="25" />
-              <span className="ml-4">New Market</span>
+              <img src={pin} alt="location" width="16"  />
+              <h6 className="ml-4">New Market</h6>
             </div>
-            <div className="book-btn bg-white text-center primary">
+            <div className="book-btn bg-white text-center primary btn-text">
               Book Now
             </div>
           </div>

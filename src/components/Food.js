@@ -24,11 +24,11 @@ const Food = () => {
           <Offer image={food_img2} />
           <div style={{ flexBasis: "2%" }}></div>
           <Offer image={food_img3}/>
-          <div style={{ flexBasis: "1rem" }}></div>
+          <div style={{ flexBasis: "2%" }}></div>
           <Offer image={food_img4}/>
-          <div style={{ flexBasis: "1rem" }}></div>
+          <div style={{ flexBasis: "2%" }}></div>
           <Offer image={food_img5}/>
-          <div style={{ flexBasis: "1rem" }}></div>
+          <div style={{ flexBasis: "2%" }}></div>
           <Offer image={food_img6}/>
           <div></div>
           <div></div>

@@ -1,4 +1,5 @@
 footer{
+    position: relative;
     margin-top:5vw;
     padding: 15vw 3vw;
     background-repeat: no-repeat;
@@ -19,28 +20,44 @@ footer form input{
     height: 100%;
     border: none;
 }
-footer form input:focus{
-    outline-style: none;
-}
 
 footer form button{
     width:3.5rem;
     height: 3.5rem;
     border-radius: 50%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
+}
+#bottom-bar{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    padding: 5vw 0px;
+}
+#bottom-bar img{
+    height: 1rem;
+    width:1rem;
+}
+.icons-container{
+    margin-right: 3rem;
 }
 @media screen and (max-width: 1194px ) {
     footer{
         background-position-x: -6rem;
     } 
+    .icons-container{
+        margin-right: 2rem;
+    }
+    footer .content{
+        margin-bottom: 2rem;
+    }
 }
 @media screen and (max-width: 680px ) {
     footer{
         background-position-x: -10rem;
     } 
+    #bottom-bar{
+        right: 0;
+    }
+    .icons-container{
+        margin-right: 1rem;
+    }
 }

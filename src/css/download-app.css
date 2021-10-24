@@ -5,20 +5,11 @@
     padding-left: 1rem;
     border-left:0.5rem var(--primary) solid;
 }
-/*#download-app p{
-    max-width:40%;
-}*/
 #download-app .btns{
     max-width: 80%;
 }
 #download-app .btns button{
     width:50%;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
 }
 #download-app .btns button img{
     width:100%;

@@ -44,10 +44,7 @@
   padding-left: 50px;
 }
 
-.search-form input:focus{
-outline-style: none;
-border-bottom: 1px var(--primary) solid;
-}
+
 .search-form button{
   background-color:var(--primary);
   flex-basis: 33%;

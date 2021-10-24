@@ -22,14 +22,13 @@
 }
 .booking .search_input{
   height:100%;
-  border: none;
   padding-left: 10%;
   flex-grow: 1;
 }
 
 .booking button{
  color:white;
-  flex-basis: 25%;
+  width: max(2rem,5vw);
   height: 100%;
   background-color: var(--primary);
   border:none;

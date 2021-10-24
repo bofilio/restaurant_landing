@@ -1,5 +1,4 @@
 import React from "react";
-import food_img1 from "../imgs/food1.png";
 const Offer = ({image}) => {
   return (
     <div className="d-flex flex-column food-offer mt-8">
