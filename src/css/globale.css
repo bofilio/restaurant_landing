@@ -186,6 +186,7 @@ body{
   .pl-4{
     padding-left: calc(var(--spacing)*4);
   }
+  
   .p-2-4{
     padding:calc(var(--spacing)*2) calc(var(--spacing)*4);
   }
@@ -255,6 +256,12 @@ button{
 
   @media screen and (max-width: 680px ) {
   .mobile{
-    flex-direction: column;
+    
   }
 }
+@media screen and (max-width: 1194px ) {
+  .tablet{
+  flex-direction: column;
+}
+}
+

@@ -7,7 +7,7 @@ import pin from "../imgs/location_.png";
 const TopResaurants = () => {
   return (
     <section id="top-restaurant" className="d-flex flex-column">
-      <div className="d-flex restaurants-section mobile">
+      <div className="d-flex restaurants-section mobile tablet p-4">
         <div className="heading">
           <h4>some top restaurant for dining in or Take away!</h4>
         </div>
@@ -20,7 +20,7 @@ const TopResaurants = () => {
           adipiscing cursus auctor eget sed.
         </div>
       </div>
-      <div className="restau-grid d-flex align-items-center">
+      <div className="restau-grid d-flex align-items-center mt-8">
         <div className="restaurant" >
           <img src={rest_img2} className="main-img" alt="restau" />
           <div className="infos">

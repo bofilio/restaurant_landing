@@ -1,9 +1,7 @@
 #top-restaurant{
     padding: max(5vw,3rem) 0;
 }
-.restaurants-section{
-    max-width: 1450px;  
-}
+
 
 .restaurants-section .heading{
     max-width: 600px;
@@ -13,8 +11,8 @@
     border-left:12px var(--primary) solid;
 }
 .sub-text{
-    margin-left: 7%;
-    flex-basis: 33%;
+    margin-left: min(7%,1rem);
+    flex-basis: 60%;
 }
 .restaurant{
     position: relative;
@@ -72,7 +70,8 @@
         border-left:9px var(--primary) solid;
     }
     .restaurants-section .sub-text{
-        margin-left: 16px;
+        margin-left: 1rem;
+        margin-top:1rem;
     }
     
     .restaurant{
